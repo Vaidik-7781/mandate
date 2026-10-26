@@ -44,8 +44,10 @@ reason accepts (Mandate sends only documented ones); the shape of the multipart 
 sandbox-only `POST /v1/customer/disputes` route for creating a test dispute; and the `allowed_response_options`
 field that tells a merchant which accept-claim and offer types a dispute allows.
 
-**Not yet run against the real sandbox** (the author had no sandbox credentials): all of the above end to end,
+**Run against the real sandbox once (26 Oct 2026):** order creation with `custom_id` stored and read back, buyer approval, capture and refund (`docs/sandbox-report.json`).
+
+**Not yet run against the real sandbox:** webhooks, the Disputes API,
 `evidence_requested` handling, buyer-offer actions, and the `seller_protection_applied` field. The in-process
 simulator implements what the documentation says; it is not proof of what PayPal does. Run
-`python -m mandate.sandbox_check` with your sandbox keys to turn the first group into evidence
+`python -m mandate.sandbox_check` with your own sandbox keys to reproduce the run above
 (`sandbox_report.json`).

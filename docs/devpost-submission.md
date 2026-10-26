@@ -38,11 +38,11 @@ The valuable boundary is not detecting bad text; it is making the permission mac
 payment. Narrow mandates make most injections irrelevant.
 
 ## What's next
-Run the sandbox check with real credentials and publish the report; measure two model families with `make bench-llm`;
+Run webhooks and disputes against the real sandbox; measure two model families with `make bench-llm`;
 take the liability weights and the PayPal binding to people who can challenge them.
 
 ## Honest limits (also in the app)
-PayPal is simulated by default; dispute outcomes are scripted; the benchmark is synthetic; no live-sandbox or
+PayPal is simulated by default (the Orders flow was also run once on the real sandbox); dispute outcomes are scripted; the benchmark is synthetic; no webhook, dispute or
 live-model run has been performed by the authors. Sandbox project, not production-ready, not legal advice, not
 endorsed by PayPal.
 

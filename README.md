@@ -13,15 +13,15 @@ evidence and the verdict come from published rules, not from a model's mood.
 
 | Part | Default (no keys) | With your keys |
 |---|---|---|
-| PayPal Orders, Payments, Disputes, Webhooks | **Simulated** in-process, built from PayPal's documentation | **Real PayPal sandbox**: same client code, `python -m mandate.sandbox_check` proves it end to end |
+| PayPal Orders, Payments, Disputes, Webhooks | **Simulated** in-process, built from PayPal's documentation | **Real PayPal sandbox**: same client code. Orders create, approve, capture and refund were run end to end on 26 Oct 2026 (`docs/sandbox-report.json`); rerun with `python -m mandate.sandbox_check` |
 | Buyer approval | A button standing in for the PayPal popup | The PayPal approve page |
 | Dispute outcome | **Scripted** (the sandbox adjudication is a test call; no real win rate exists) | Same |
 | Language model | Offline rules or recorded answers | **Live model** if `LLM_API_KEY` is set (Anthropic or any OpenAI-compatible endpoint) |
 | Guard, ledger, credentials, liability rules, receipts, audit log | **Real code**, identical in every mode | same |
 | Mandate-Bench | **Synthetic**: scripted attackers, generated scenarios | `make bench-llm` runs it against a real model |
 
-The app shows this table on screen (footer of both pages). Nothing above has been run against the real PayPal
-sandbox *by the author*: no sandbox credentials were available. [docs/paypal-verification.md](docs/paypal-verification.md)
+The app shows this table on screen (footer of both pages). Only the Orders flow has been run against the real PayPal
+sandbox, once, on 26 Oct 2026 (create, approve, capture, refund and the custom_id binding; see `docs/sandbox-report.json`). Webhooks, the Disputes API and dispute outcomes were not. [docs/paypal-verification.md](docs/paypal-verification.md)
 lists which PayPal facts were checked against documentation and which are untested.
 
 ## Why it exists
@@ -103,7 +103,7 @@ Community tables) · `spec/` (binding, matrix, sensitivity, JSON vectors) · `be
 
 | Verified here | Not verified here |
 |---|---|
-| ruff, mypy, pytest, Alembic, both benches, web build, Chromium test, quickstart from a clean extract, MCP over stdio and HTTP, all in replay mode | **Live PayPal sandbox** (script ready: `python -m mandate.sandbox_check`) |
+| ruff, mypy, pytest, Alembic, both benches, web build, Chromium test, quickstart from a clean extract, MCP over stdio and HTTP, all in replay mode | **PayPal webhooks and the Disputes API** on the real sandbox (the Orders flow was run once: `docs/sandbox-report.json`) |
 | Webhook signature code against the simulator's signed events | **A live LLM** (harness and provider code tested with mock transports) |
 | | Docker image build (no Docker daemon here; the CI workflow is set up to build it), Render deploy |
 | | Several PayPal sandbox behaviours the simulator assumes (`spec/paypal-binding.md`) |

@@ -48,7 +48,7 @@
 
 ## Known limits
 
-- Not run against the live PayPal sandbox, a live LLM, a Render deployment or AG Studio. Replay mode, the
+- The PayPal sandbox Orders flow was run once (26 Oct 2026, `docs/sandbox-report.json`); webhooks and the Disputes API were not. Not run against a live LLM, a Render deployment or AG Studio. Replay mode, the
   simulator, the offline backend and the test suite are what was exercised.
 - The simulator implements PayPal behaviour from documentation; several details are guesses (see
   `spec/paypal-binding.md`).

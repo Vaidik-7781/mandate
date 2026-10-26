@@ -1,0 +1,68 @@
+{
+  "mode": "paypal sandbox",
+  "base_url": "https://api-m.sandbox.paypal.com",
+  "ok": true,
+  "checked_at": 1793012710,
+  "steps": [
+    {
+      "name": "OAuth token",
+      "ok": true,
+      "detail": "https://api-m.sandbox.paypal.com"
+    },
+    {
+      "name": "mandate signed",
+      "ok": true,
+      "detail": "mnd_6faa207064f2"
+    },
+    {
+      "name": "agent purchase created a PayPal order",
+      "ok": true,
+      "detail": "created"
+    },
+    {
+      "name": "PayPal stored the credential-chain digest as custom_id",
+      "ok": true,
+      "detail": "cW_hkTK54j2W\u2026"
+    },
+    {
+      "name": "buyer approved the order",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "capture",
+      "ok": true,
+      "detail": "captured"
+    },
+    {
+      "name": "order is CAPTURED with a capture id",
+      "ok": true,
+      "detail": "CAPTURED"
+    },
+    {
+      "name": "capture echoes custom_id",
+      "ok": true,
+      "detail": "cW_hkTK54j2W"
+    },
+    {
+      "name": "signed receipt verifies",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "revoke refunded the undelivered order",
+      "ok": true,
+      "detail": "REFUNDED, refunded 8900"
+    },
+    {
+      "name": "ledger exposure returned to zero",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "audit chain intact",
+      "ok": true,
+      "detail": "22 entries"
+    }
+  ]
+}

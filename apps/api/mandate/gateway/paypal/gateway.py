@@ -54,6 +54,7 @@ class PayPalGateway:
         """`items` = [{sku, name, quantity, unit_price_minor}] from the merchant-signed cart.
         `return_base` (the app's public URL) gives the PayPal approval page somewhere to return the buyer to."""
         total = sum(int(i["unit_price_minor"]) * int(i["quantity"]) for i in items)
+        return_base = (return_base or "http://localhost:8000").rstrip("/")
         self._check(token, purpose="create_order", custom_id=custom_id, amount_minor=total, currency=currency)
         body = {
             "intent": "CAPTURE",

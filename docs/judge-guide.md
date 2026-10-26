@@ -22,14 +22,14 @@ Details and the per-claim documentation check: [paypal-verification.md](paypal-v
 
 | Question | Answer and where to look |
 |---|---|
-| Does it actually call PayPal? | The client code (`gateway/paypal/`) targets Orders v2, Payments v2 refunds, Disputes v1 and webhooks. By default it runs against the simulator. `python -m mandate.sandbox_check` runs the whole flow against the real sandbox with your keys and writes `sandbox_report.json`. The author could not run it (no credentials). |
+| Does it actually call PayPal? | The client code (`gateway/paypal/`) targets Orders v2, Payments v2 refunds, Disputes v1 and webhooks. By default it runs against the simulator. `python -m mandate.sandbox_check` runs the whole flow against the real sandbox with your keys and writes `sandbox_report.json`. The author ran it once on 26 Oct 2026 and every step passed (`docs/sandbox-report.json`): OAuth, order creation, the credential-chain digest stored as custom_id, buyer approval, capture, refund. Webhooks and the Disputes API were not run. |
 | Where is the AI? | Five model roles (intent compiler, quarantined extractor, planner, evidence note, liability explainer) behind one provider layer (Anthropic or any OpenAI-compatible endpoint). Money never depends on a model: the guard is plain code. Offline by default so it reproduces; a key makes it live. Tested with mock transports, not yet with a live key. |
 | Is the safety number rigged? | Partly synthetic, and it says so. The attackers are scripted. Two additions answer that: an **adaptive attacker** that evades the detector 100% of the time yet cannot get an out-of-mandate purchase past the guard (and is *not* stopped inside the mandate; the report says so), and `make bench-llm`, which puts a real model in the planner seat on two arms. No model numbers are shipped that were not measured. |
 | Are the liability weights invented? | Yes, they are design choices. [liability-sensitivity.md](../spec/liability-sensitivity.md) shows which ones can change what the dispute agent does (only the user's share) and which only change who pays. |
 | Is the idea crowded? | Agent payment protocols exist. Mandate is the accountability layer under them: signed limits bound to the PayPal order, a guard, a dispute agent and a published fault rule. It does not replace any of them. |
 | Can another agent use it? | MCP server (stdio and `POST /mcp`), eight tools, none able to create or widen a mandate: [mcp.md](mcp.md). |
 | What if PayPal already protects the buyer? | The dispute agent defers to PayPal's process; there is a test and a simulator case for it. |
-| What is not built? | PayPal JS SDK v6 button, vaulting, a Render Workflows adapter (sandbox mode sends the buyer to the PayPal approve page). Live-sandbox and live-LLM runs. Docker image build was not run locally (no daemon); CI is configured to build it. |
+| What is not built? | PayPal JS SDK v6 button, vaulting, a Render Workflows adapter (sandbox mode sends the buyer to the PayPal approve page). Webhook, Disputes-API and live-LLM runs. Docker image build was not run locally (no daemon); CI is configured to build it. |
 | How do I check the code? | `make check` (ruff, mypy, 650+ tests, both benches, web build); `make e2e` for the Chromium test; `docs/openapi.json` and a Postman collection for the API. |
 
 ## Prize fit, honestly
