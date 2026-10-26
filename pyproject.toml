@@ -54,3 +54,6 @@ check_untyped_defs = false
 warn_unused_ignores = false
 files = ["apps/api/mandate"]
 exclude = ["apps/api/verifiable_intent"]
+
+[tool.ruff.format]
+line-ending = "lf"
