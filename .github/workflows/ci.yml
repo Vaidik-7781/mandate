@@ -1,0 +1,43 @@
+name: ci
+on: [push, pull_request]
+jobs:
+  python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -e ".[dev]"
+      - run: ruff check . && ruff format --check .
+      - run: mypy apps/api/mandate
+      - run: pytest -q
+      - run: cd apps/api && python -m mandate.bench.run && python -m mandate.bench.adaptive
+      - run: python -m mandate.sandbox_check   # simulator unless sandbox secrets are configured
+        working-directory: apps/api
+      - run: python scripts/demo.py
+  web:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: cd apps/web && npm ci && npm run build
+      - name: committed UI matches the source
+        run: git diff --stat --exit-code -- apps/web/dist || echo "::warning::apps/web/dist is out of date, run make web"
+  e2e:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -e . playwright && playwright install --with-deps chromium
+      - run: python scripts/e2e_smoke.py
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker build -t mandate .
+      - run: |
+          docker run -d --name m -p 8000:8000 mandate
+          for i in $(seq 1 30); do curl -fs localhost:8000/health && break; sleep 2; done
+          curl -fs localhost:8000/api/config

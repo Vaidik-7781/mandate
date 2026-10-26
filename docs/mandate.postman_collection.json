@@ -1,0 +1,840 @@
+{
+ "info": {
+  "name": "Mandate API",
+  "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+ },
+ "variable": [
+  {
+   "key": "base_url",
+   "value": "http://localhost:8000"
+  }
+ ],
+ "item": [
+  {
+   "name": "Analytics",
+   "request": {
+    "method": "GET",
+    "header": [],
+    "url": {
+     "raw": "{{base_url}}/api/analytics",
+     "host": [
+      "{{base_url}}"
+     ],
+     "path": [
+      "api",
+      "analytics"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Approvals",
+   "request": {
+    "method": "GET",
+    "header": [],
+    "url": {
+     "raw": "{{base_url}}/api/approvals",
+     "host": [
+      "{{base_url}}"
+     ],
+     "path": [
+      "api",
+      "approvals"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Decide",
+   "request": {
+    "method": "POST",
+    "header": [
+     {
+      "key": "Content-Type",
+      "value": "application/json"
+     }
+    ],
+    "url": {
+     "raw": "{{base_url}}/api/approvals/:approval_id/decide",
+     "host": [
+      "{{base_url}}"
+     ],
+     "path": [
+      "api",
+      "approvals",
+      ":approval_id",
+      "decide"
+     ]
+    },
+    "body": {
+     "mode": "raw",
+     "raw": "{}",
+     "options": {
+      "raw": {
+       "language": "json"
+      }
+     }
+    }
+   }
+  },
+  {
+   "name": "Audit",
+   "request": {
+    "method": "GET",
+    "header": [],
+    "url": {
+     "raw": "{{base_url}}/api/audit",
+     "host": [
+      "{{base_url}}"
+     ],
+     "path": [
+      "api",
+      "audit"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Audit Verify",
+   "request": {
+    "method": "GET",
+    "header": [],
+    "url": {
+     "raw": "{{base_url}}/api/audit/verify",
+     "host": [
+      "{{base_url}}"
+     ],
+     "path": [
+      "api",
+      "audit",
+      "verify"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Bench Latest",
+   "request": {
+    "method": "GET",
+    "header": [],
+    "url": {
+     "raw": "{{base_url}}/api/bench/latest",
+     "host": [
+      "{{base_url}}"
+     ],
+     "path": [
+      "api",
+      "bench",
+      "latest"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Catalog",
+   "request": {
+    "method": "GET",
+    "header": [],
+    "url": {
+     "raw": "{{base_url}}/api/catalog",
+     "host": [
+      "{{base_url}}"
+     ],
+     "path": [
+      "api",
+      "catalog"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Compile ",
+   "request": {
+    "method": "POST",
+    "header": [
+     {
+      "key": "Content-Type",
+      "value": "application/json"
+     }
+    ],
+    "url": {
+     "raw": "{{base_url}}/api/compile",
+     "host": [
+      "{{base_url}}"
+     ],
+     "path": [
+      "api",
+      "compile"
+     ]
+    },
+    "body": {
+     "mode": "raw",
+     "raw": "{}",
+     "options": {
+      "raw": {
+       "language": "json"
+      }
+     }
+    }
+   }
+  },
+  {
+   "name": "Config",
+   "request": {
+    "method": "GET",
+    "header": [],
+    "url": {
+     "raw": "{{base_url}}/api/config",
+     "host": [
+      "{{base_url}}"
+     ],
+     "path": [
+      "api",
+      "config"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Post Contact",
+   "request": {
+    "method": "POST",
+    "header": [],
+    "url": {
+     "raw": "{{base_url}}/api/contact",
+     "host": [
+      "{{base_url}}"
+     ],
+     "path": [
+      "api",
+      "contact"
+     ]
+    }
+   }
+  },
+  {
+   "name": "List Contact",
+   "request": {
+    "method": "GET",
+    "header": [],
+    "url": {
+     "raw": "{{base_url}}/api/contact/messages",
+     "host": [
+      "{{base_url}}"
+     ],
+     "path": [
+      "api",
+      "contact",
+      "messages"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Decisions",
+   "request": {
+    "method": "GET",
+    "header": [],
+    "url": {
+     "raw": "{{base_url}}/api/decisions",
+     "host": [
+      "{{base_url}}"
+     ],
+     "path": [
+      "api",
+      "decisions"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Disputes",
+   "request": {
+    "method": "GET",
+    "header": [],
+    "url": {
+     "raw": "{{base_url}}/api/disputes",
+     "host": [
+      "{{base_url}}"
+     ],
+     "path": [
+      "api",
+      "disputes"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Dispute",
+   "request": {
+    "method": "GET",
+    "header": [],
+    "url": {
+     "raw": "{{base_url}}/api/disputes/:dispute_id",
+     "host": [
+      "{{base_url}}"
+     ],
+     "path": [
+      "api",
+      "disputes",
+      ":dispute_id"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Adjudicate",
+   "request": {
+    "method": "POST",
+    "header": [],
+    "url": {
+     "raw": "{{base_url}}/api/disputes/:dispute_id/adjudicate",
+     "host": [
+      "{{base_url}}"
+     ],
+     "path": [
+      "api",
+      "disputes",
+      ":dispute_id",
+      "adjudicate"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Buyer Message",
+   "request": {
+    "method": "POST",
+    "header": [
+     {
+      "key": "Content-Type",
+      "value": "application/json"
+     }
+    ],
+    "url": {
+     "raw": "{{base_url}}/api/disputes/:dispute_id/buyer-message",
+     "host": [
+      "{{base_url}}"
+     ],
+     "path": [
+      "api",
+      "disputes",
+      ":dispute_id",
+      "buyer-message"
+     ]
+    },
+    "body": {
+     "mode": "raw",
+     "raw": "{}",
+     "options": {
+      "raw": {
+       "language": "json"
+      }
+     }
+    }
+   }
+  },
+  {
+   "name": "Buyer Respond",
+   "request": {
+    "method": "POST",
+    "header": [
+     {
+      "key": "Content-Type",
+      "value": "application/json"
+     }
+    ],
+    "url": {
+     "raw": "{{base_url}}/api/disputes/:dispute_id/buyer-respond",
+     "host": [
+      "{{base_url}}"
+     ],
+     "path": [
+      "api",
+      "disputes",
+      ":dispute_id",
+      "buyer-respond"
+     ]
+    },
+    "body": {
+     "mode": "raw",
+     "raw": "{}",
+     "options": {
+      "raw": {
+       "language": "json"
+      }
+     }
+    }
+   }
+  },
+  {
+   "name": "Handle Dispute",
+   "request": {
+    "method": "POST",
+    "header": [],
+    "url": {
+     "raw": "{{base_url}}/api/disputes/:dispute_id/handle",
+     "host": [
+      "{{base_url}}"
+     ],
+     "path": [
+      "api",
+      "disputes",
+      ":dispute_id",
+      "handle"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Create Mandate",
+   "request": {
+    "method": "POST",
+    "header": [
+     {
+      "key": "Content-Type",
+      "value": "application/json"
+     }
+    ],
+    "url": {
+     "raw": "{{base_url}}/api/mandates",
+     "host": [
+      "{{base_url}}"
+     ],
+     "path": [
+      "api",
+      "mandates"
+     ]
+    },
+    "body": {
+     "mode": "raw",
+     "raw": "{}",
+     "options": {
+      "raw": {
+       "language": "json"
+      }
+     }
+    }
+   }
+  },
+  {
+   "name": "List Mandates",
+   "request": {
+    "method": "GET",
+    "header": [],
+    "url": {
+     "raw": "{{base_url}}/api/mandates",
+     "host": [
+      "{{base_url}}"
+     ],
+     "path": [
+      "api",
+      "mandates"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Get Mandate",
+   "request": {
+    "method": "GET",
+    "header": [],
+    "url": {
+     "raw": "{{base_url}}/api/mandates/:mandate_id",
+     "host": [
+      "{{base_url}}"
+     ],
+     "path": [
+      "api",
+      "mandates",
+      ":mandate_id"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Credentials",
+   "request": {
+    "method": "GET",
+    "header": [],
+    "url": {
+     "raw": "{{base_url}}/api/mandates/:mandate_id/credentials",
+     "host": [
+      "{{base_url}}"
+     ],
+     "path": [
+      "api",
+      "mandates",
+      ":mandate_id",
+      "credentials"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Mandate Decisions",
+   "request": {
+    "method": "GET",
+    "header": [],
+    "url": {
+     "raw": "{{base_url}}/api/mandates/:mandate_id/decisions",
+     "host": [
+      "{{base_url}}"
+     ],
+     "path": [
+      "api",
+      "mandates",
+      ":mandate_id",
+      "decisions"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Purchase",
+   "request": {
+    "method": "POST",
+    "header": [
+     {
+      "key": "Content-Type",
+      "value": "application/json"
+     }
+    ],
+    "url": {
+     "raw": "{{base_url}}/api/mandates/:mandate_id/purchase",
+     "host": [
+      "{{base_url}}"
+     ],
+     "path": [
+      "api",
+      "mandates",
+      ":mandate_id",
+      "purchase"
+     ]
+    },
+    "body": {
+     "mode": "raw",
+     "raw": "{}",
+     "options": {
+      "raw": {
+       "language": "json"
+      }
+     }
+    }
+   }
+  },
+  {
+   "name": "Revoke",
+   "request": {
+    "method": "POST",
+    "header": [
+     {
+      "key": "Content-Type",
+      "value": "application/json"
+     }
+    ],
+    "url": {
+     "raw": "{{base_url}}/api/mandates/:mandate_id/revoke",
+     "host": [
+      "{{base_url}}"
+     ],
+     "path": [
+      "api",
+      "mandates",
+      ":mandate_id",
+      "revoke"
+     ]
+    },
+    "body": {
+     "mode": "raw",
+     "raw": "{}",
+     "options": {
+      "raw": {
+       "language": "json"
+      }
+     }
+    }
+   }
+  },
+  {
+   "name": "List Orders",
+   "request": {
+    "method": "GET",
+    "header": [],
+    "url": {
+     "raw": "{{base_url}}/api/orders",
+     "host": [
+      "{{base_url}}"
+     ],
+     "path": [
+      "api",
+      "orders"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Get Order",
+   "request": {
+    "method": "GET",
+    "header": [],
+    "url": {
+     "raw": "{{base_url}}/api/orders/:order_id",
+     "host": [
+      "{{base_url}}"
+     ],
+     "path": [
+      "api",
+      "orders",
+      ":order_id"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Capture",
+   "request": {
+    "method": "POST",
+    "header": [],
+    "url": {
+     "raw": "{{base_url}}/api/orders/:order_id/capture",
+     "host": [
+      "{{base_url}}"
+     ],
+     "path": [
+      "api",
+      "orders",
+      ":order_id",
+      "capture"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Deliver",
+   "request": {
+    "method": "POST",
+    "header": [],
+    "url": {
+     "raw": "{{base_url}}/api/orders/:order_id/deliver",
+     "host": [
+      "{{base_url}}"
+     ],
+     "path": [
+      "api",
+      "orders",
+      ":order_id",
+      "deliver"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Liability",
+   "request": {
+    "method": "GET",
+    "header": [],
+    "url": {
+     "raw": "{{base_url}}/api/orders/:order_id/liability",
+     "host": [
+      "{{base_url}}"
+     ],
+     "path": [
+      "api",
+      "orders",
+      ":order_id",
+      "liability"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Receipt",
+   "request": {
+    "method": "GET",
+    "header": [],
+    "url": {
+     "raw": "{{base_url}}/api/orders/:order_id/receipt",
+     "host": [
+      "{{base_url}}"
+     ],
+     "path": [
+      "api",
+      "orders",
+      ":order_id",
+      "receipt"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Receipt Pdf",
+   "request": {
+    "method": "GET",
+    "header": [],
+    "url": {
+     "raw": "{{base_url}}/api/orders/:order_id/receipt.pdf",
+     "host": [
+      "{{base_url}}"
+     ],
+     "path": [
+      "api",
+      "orders",
+      ":order_id",
+      "receipt.pdf"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Sim Dispute",
+   "request": {
+    "method": "POST",
+    "header": [
+     {
+      "key": "Content-Type",
+      "value": "application/json"
+     }
+    ],
+    "url": {
+     "raw": "{{base_url}}/api/orders/:order_id/sim-dispute",
+     "host": [
+      "{{base_url}}"
+     ],
+     "path": [
+      "api",
+      "orders",
+      ":order_id",
+      "sim-dispute"
+     ]
+    },
+    "body": {
+     "mode": "raw",
+     "raw": "{}",
+     "options": {
+      "raw": {
+       "language": "json"
+      }
+     }
+    }
+   }
+  },
+  {
+   "name": "Simulate Approval",
+   "request": {
+    "method": "POST",
+    "header": [],
+    "url": {
+     "raw": "{{base_url}}/api/orders/:order_id/simulate-approval",
+     "host": [
+      "{{base_url}}"
+     ],
+     "path": [
+      "api",
+      "orders",
+      ":order_id",
+      "simulate-approval"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Presets",
+   "request": {
+    "method": "GET",
+    "header": [],
+    "url": {
+     "raw": "{{base_url}}/api/presets",
+     "host": [
+      "{{base_url}}"
+     ],
+     "path": [
+      "api",
+      "presets"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Verify Receipt",
+   "request": {
+    "method": "POST",
+    "header": [
+     {
+      "key": "Content-Type",
+      "value": "application/json"
+     }
+    ],
+    "url": {
+     "raw": "{{base_url}}/api/receipts/verify",
+     "host": [
+      "{{base_url}}"
+     ],
+     "path": [
+      "api",
+      "receipts",
+      "verify"
+     ]
+    },
+    "body": {
+     "mode": "raw",
+     "raw": "{}",
+     "options": {
+      "raw": {
+       "language": "json"
+      }
+     }
+    }
+   }
+  },
+  {
+   "name": "Health",
+   "request": {
+    "method": "GET",
+    "header": [],
+    "url": {
+     "raw": "{{base_url}}/health",
+     "host": [
+      "{{base_url}}"
+     ],
+     "path": [
+      "health"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Mcp Endpoint",
+   "request": {
+    "method": "POST",
+    "header": [],
+    "url": {
+     "raw": "{{base_url}}/mcp",
+     "host": [
+      "{{base_url}}"
+     ],
+     "path": [
+      "mcp"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Paypal Webhook",
+   "request": {
+    "method": "POST",
+    "header": [],
+    "url": {
+     "raw": "{{base_url}}/webhooks/paypal",
+     "host": [
+      "{{base_url}}"
+     ],
+     "path": [
+      "webhooks",
+      "paypal"
+     ]
+    }
+   }
+  }
+ ]
+}

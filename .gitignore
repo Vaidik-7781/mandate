@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+*.db
+.env
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+node_modules/
+*.egg-info/
+dist/
+!apps/web/dist/
+bench/results/raw.jsonl
+sandbox_report.json
+fixtures/llm/*.tmp

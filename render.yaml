@@ -1,0 +1,25 @@
+# Render blueprint. Unverified against a live Render account.
+services:
+  - type: web
+    name: mandate
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase: { name: mandate-db, property: connectionString }
+      - key: SECRET_SEED
+        generateValue: true
+      - key: PAYPAL_ENV
+        value: sandbox
+      - key: PAYPAL_CLIENT_ID
+        sync: false
+      - key: PAYPAL_CLIENT_SECRET
+        sync: false
+      - key: PAYPAL_WEBHOOK_ID
+        sync: false
+      - key: LLM_API_KEY
+        sync: false
+databases:
+  - name: mandate-db
+    plan: free

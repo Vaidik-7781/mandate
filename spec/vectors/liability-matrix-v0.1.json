@@ -1,0 +1,8902 @@
+{
+ "matrix_version": "0.1",
+ "note": "first matching rule R1..R8 wins",
+ "cases": [
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": true
+   },
+   "rule": "R8",
+   "split": {
+    "user": 100,
+    "agent_platform": 0,
+    "merchant": 0
+   },
+   "defend_merchant": true
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": false
+   },
+   "rule": "R4",
+   "split": {
+    "user": 0,
+    "agent_platform": 70,
+    "merchant": 30
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": true
+   },
+   "rule": "R7",
+   "split": {
+    "user": 0,
+    "agent_platform": 0,
+    "merchant": 100
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": false
+   },
+   "rule": "R4",
+   "split": {
+    "user": 0,
+    "agent_platform": 70,
+    "merchant": 30
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": true
+   },
+   "rule": "R3",
+   "split": {
+    "user": 0,
+    "agent_platform": 0,
+    "merchant": 100
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": false
+   },
+   "rule": "R3",
+   "split": {
+    "user": 0,
+    "agent_platform": 0,
+    "merchant": 100
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": true
+   },
+   "rule": "R3",
+   "split": {
+    "user": 0,
+    "agent_platform": 0,
+    "merchant": 100
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": false
+   },
+   "rule": "R3",
+   "split": {
+    "user": 0,
+    "agent_platform": 0,
+    "merchant": 100
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R5",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R5",
+   "split": {
+    "user": 0,
+    "agent_platform": 70,
+    "merchant": 30
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R4",
+   "split": {
+    "user": 0,
+    "agent_platform": 70,
+    "merchant": 30
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R4",
+   "split": {
+    "user": 0,
+    "agent_platform": 70,
+    "merchant": 30
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R5",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R5",
+   "split": {
+    "user": 0,
+    "agent_platform": 70,
+    "merchant": 30
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R4",
+   "split": {
+    "user": 0,
+    "agent_platform": 70,
+    "merchant": 30
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R4",
+   "split": {
+    "user": 0,
+    "agent_platform": 70,
+    "merchant": 30
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R3",
+   "split": {
+    "user": 0,
+    "agent_platform": 0,
+    "merchant": 100
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R3",
+   "split": {
+    "user": 0,
+    "agent_platform": 0,
+    "merchant": 100
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R3",
+   "split": {
+    "user": 0,
+    "agent_platform": 0,
+    "merchant": 100
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R3",
+   "split": {
+    "user": 0,
+    "agent_platform": 0,
+    "merchant": 100
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R3",
+   "split": {
+    "user": 0,
+    "agent_platform": 0,
+    "merchant": 100
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R3",
+   "split": {
+    "user": 0,
+    "agent_platform": 0,
+    "merchant": 100
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R3",
+   "split": {
+    "user": 0,
+    "agent_platform": 0,
+    "merchant": 100
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R3",
+   "split": {
+    "user": 0,
+    "agent_platform": 0,
+    "merchant": 100
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "p9": false
+   },
+   "rule": "R6",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "p9": true
+   },
+   "rule": "R6",
+   "split": {
+    "user": 30,
+    "agent_platform": 70,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "p9": false
+   },
+   "rule": "R4",
+   "split": {
+    "user": 0,
+    "agent_platform": 70,
+    "merchant": 30
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "p9": true
+   },
+   "rule": "R4",
+   "split": {
+    "user": 0,
+    "agent_platform": 70,
+    "merchant": 30
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "p9": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "p9": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "p9": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "p9": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "p9": false
+   },
+   "rule": "R6",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "p9": true
+   },
+   "rule": "R6",
+   "split": {
+    "user": 30,
+    "agent_platform": 70,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "p9": false
+   },
+   "rule": "R4",
+   "split": {
+    "user": 0,
+    "agent_platform": 70,
+    "merchant": 30
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "p9": true
+   },
+   "rule": "R4",
+   "split": {
+    "user": 0,
+    "agent_platform": 70,
+    "merchant": 30
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "p9": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "p9": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "p9": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "p9": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "p9": false
+   },
+   "rule": "R3",
+   "split": {
+    "user": 0,
+    "agent_platform": 0,
+    "merchant": 100
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "p9": true
+   },
+   "rule": "R3",
+   "split": {
+    "user": 0,
+    "agent_platform": 0,
+    "merchant": 100
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "p9": false
+   },
+   "rule": "R3",
+   "split": {
+    "user": 0,
+    "agent_platform": 0,
+    "merchant": 100
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "p9": true
+   },
+   "rule": "R3",
+   "split": {
+    "user": 0,
+    "agent_platform": 0,
+    "merchant": 100
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "p9": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "p9": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "p9": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "p9": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "p9": false
+   },
+   "rule": "R3",
+   "split": {
+    "user": 0,
+    "agent_platform": 0,
+    "merchant": 100
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "p9": true
+   },
+   "rule": "R3",
+   "split": {
+    "user": 0,
+    "agent_platform": 0,
+    "merchant": 100
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "p9": false
+   },
+   "rule": "R3",
+   "split": {
+    "user": 0,
+    "agent_platform": 0,
+    "merchant": 100
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "p9": true
+   },
+   "rule": "R3",
+   "split": {
+    "user": 0,
+    "agent_platform": 0,
+    "merchant": 100
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "p9": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "p9": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "p9": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "p9": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R5",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R5",
+   "split": {
+    "user": 0,
+    "agent_platform": 70,
+    "merchant": 30
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R4",
+   "split": {
+    "user": 0,
+    "agent_platform": 70,
+    "merchant": 30
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R4",
+   "split": {
+    "user": 0,
+    "agent_platform": 70,
+    "merchant": 30
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R5",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R5",
+   "split": {
+    "user": 0,
+    "agent_platform": 70,
+    "merchant": 30
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R4",
+   "split": {
+    "user": 0,
+    "agent_platform": 70,
+    "merchant": 30
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R4",
+   "split": {
+    "user": 0,
+    "agent_platform": 70,
+    "merchant": 30
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R3",
+   "split": {
+    "user": 0,
+    "agent_platform": 0,
+    "merchant": 100
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R3",
+   "split": {
+    "user": 0,
+    "agent_platform": 0,
+    "merchant": 100
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R3",
+   "split": {
+    "user": 0,
+    "agent_platform": 0,
+    "merchant": 100
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R3",
+   "split": {
+    "user": 0,
+    "agent_platform": 0,
+    "merchant": 100
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R3",
+   "split": {
+    "user": 0,
+    "agent_platform": 0,
+    "merchant": 100
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R3",
+   "split": {
+    "user": 0,
+    "agent_platform": 0,
+    "merchant": 100
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R3",
+   "split": {
+    "user": 0,
+    "agent_platform": 0,
+    "merchant": 100
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R3",
+   "split": {
+    "user": 0,
+    "agent_platform": 0,
+    "merchant": 100
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "p9": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "p9": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "p9": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "p9": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "p9": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "p9": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "p9": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "p9": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "p9": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "p9": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "p9": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "p9": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "p9": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "p9": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "p9": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "p9": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "p9": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "p9": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "p9": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "p9": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "p9": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "p9": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "p9": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "p9": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "p9": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "p9": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "p9": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "p9": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "p9": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "p9": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "p9": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "p9": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": true,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "p9": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "p9": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "p9": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "p9": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "p9": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "p9": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "p9": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "p9": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "p9": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "p9": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "p9": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "p9": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "p9": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "p9": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "p9": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "p9": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "p9": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "p9": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "p9": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "p9": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "p9": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "p9": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "p9": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "p9": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "p9": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "p9": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "p9": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "p9": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "p9": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "p9": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "p9": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "p9": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": true,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": true,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "p9": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "p9": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "p9": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "p9": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "p9": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "p9": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "p9": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "p9": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "p9": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "p9": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "p9": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "p9": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "p9": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "p9": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "p9": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "p9": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "p9": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "p9": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "p9": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "p9": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "p9": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "p9": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "p9": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "p9": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "p9": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "p9": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "p9": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "p9": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "p9": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "p9": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "p9": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": true,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "p9": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": true,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": true,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": true,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R2",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": true,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": false
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  },
+  {
+   "facts": {
+    "p1": false,
+    "p2": false,
+    "p3": false,
+    "p4": false,
+    "p5": false,
+    "p6": false,
+    "p7": false,
+    "p8": false,
+    "injected_text_merchant_controlled": true
+   },
+   "rule": "R1",
+   "split": {
+    "user": 0,
+    "agent_platform": 100,
+    "merchant": 0
+   },
+   "defend_merchant": false
+  }
+ ]
+}

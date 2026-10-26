@@ -1,0 +1,95 @@
+/* Design tokens. Every colour, size and radius used in ui.css comes from here (see docs/design-system.md).
+   Contrast figures are WCAG ratios computed from these exact values. */
+@import "@fontsource/instrument-serif/400.css";
+@import "@fontsource/instrument-serif/400-italic.css";
+@import "@fontsource/ibm-plex-sans/400.css";
+@import "@fontsource/ibm-plex-sans/500.css";
+@import "@fontsource/ibm-plex-sans/600.css";
+@import "@fontsource/ibm-plex-mono/400.css";
+
+:root {
+  color-scheme: light dark;
+
+  /* surfaces */
+  --canvas: #f3f5f8;
+  --card: #ffffff;
+  --sunken: #eaeef3;
+  --hairline: #dce1e9;
+  --hairline-strong: #c3cad6;
+
+  /* content: 18.2:1, 7.9:1 on card */
+  --ink: #0d1526;
+  --ink-2: #475266;
+
+  /* signal colours. Each one means one thing. Contrast on card: seal 8.3, verified 5.8, refused 6.5, hold 6.5 */
+  --seal: #1a3bcb; /* authorised / primary action */
+  --verified: #0a7358; /* proof checks out */
+  --refused: #b3261a; /* blocked, destructive */
+  --hold: #8a5100; /* a human decision is needed */
+  --on-seal: #ffffff;
+
+  --seal-wash: rgb(26 59 203 / 0.07);
+  --verified-wash: rgb(10 115 88 / 0.08);
+  --refused-wash: rgb(179 38 26 / 0.07);
+  --hold-wash: rgb(138 81 0 / 0.09);
+
+  /* type */
+  --font-display: "Instrument Serif", "Iowan Old Style", Georgia, serif;
+  --font-ui: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-data: "IBM Plex Mono", ui-monospace, "SF Mono", monospace;
+  --text-xs: 0.78rem; /* 12.5px: hashes and fine print only */
+  --text-sm: 0.875rem; /* 14px */
+  --text-md: 1rem; /* 16px body */
+  --text-lg: 1.125rem;
+  --text-xl: 1.5rem;
+  --text-2xl: clamp(2.4rem, 5.2vw, 3.75rem);
+
+  /* space: 4px base */
+  --s1: 4px; --s2: 8px; --s3: 12px; --s4: 16px; --s5: 24px; --s6: 32px; --s7: 48px; --s8: 72px;
+  --radius-sm: 10px; --radius-md: 14px; --radius-lg: 20px; --radius-pill: 999px;
+  --control: 44px; /* minimum target height */
+
+  /* elevation: a hairline ring plus one soft, tinted shadow */
+  --lift: 0 0 0 1px var(--hairline), 0 18px 40px -24px rgb(13 21 38 / 0.28);
+  --lift-sm: 0 0 0 1px var(--hairline), 0 6px 16px -12px rgb(13 21 38 / 0.25);
+
+  /* motion */
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --t-fast: 120ms;
+  --t-seal: 650ms;
+
+  --glass: rgb(243 245 248 / 0.72);
+  --focus: #1a3bcb;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --canvas: #090f1b;
+    --card: #101828;
+    --sunken: #0c1322;
+    --hairline: #1f2a40;
+    --hairline-strong: #33415c;
+    --ink: #eef2f9;
+    --ink-2: #a0abc0;
+    --seal: #9daeff; /* 8.4:1 on card */
+    --verified: #4fd3ae;
+    --refused: #ff8f7b;
+    --hold: #f4bc6c;
+    --on-seal: #090f1b;
+    --seal-wash: rgb(157 174 255 / 0.1);
+    --verified-wash: rgb(79 211 174 / 0.1);
+    --refused-wash: rgb(255 143 123 / 0.1);
+    --hold-wash: rgb(244 188 108 / 0.1);
+    --lift: 0 0 0 1px var(--hairline), 0 18px 40px -24px rgb(0 0 0 / 0.7);
+    --lift-sm: 0 0 0 1px var(--hairline), 0 6px 16px -12px rgb(0 0 0 / 0.6);
+    --glass: rgb(9 15 27 / 0.7);
+    --focus: #9daeff;
+  }
+}
+
+@media (prefers-contrast: more) {
+  :root {
+    --ink-2: var(--ink);
+    --hairline: var(--hairline-strong);
+  }
+}

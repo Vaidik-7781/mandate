@@ -1,0 +1,8 @@
+Mandate
+Copyright 2026 Vaidik Gupta
+Licensed under the Apache License, Version 2.0.
+
+Includes a vendored, unmodified copy of the Verifiable Intent reference library (Mastercard, Apache-2.0,
+apps/api/verifiable_intent), pinned to commit
+356c29635f1c44df7de02edb58699ca9f29bece6. Sandbox project: not production-ready, not legal advice,
+not endorsed by PayPal.
