@@ -1,5 +1,5 @@
 // Writes server-rendered markup into each built page: dist/<page>.html gets the output of render(<page>).
-import { readFileSync, writeFileSync, existsSync } from "node:fs";
+import { readFileSync, writeFileSync, existsSync, rmSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 
@@ -18,3 +18,5 @@ for (const [file, name] of Object.entries(pages)) {
   writeFileSync(path, html.replace(marker, (_m, attrs) => `<div id="root"${attrs}>${render(name)}</div>`));
   console.log(`prerendered ${file}.html`);
 }
+
+rmSync(ssr, { recursive: true, force: true });

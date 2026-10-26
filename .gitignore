@@ -13,3 +13,4 @@ dist/
 bench/results/raw.jsonl
 sandbox_report.json
 fixtures/llm/*.tmp
+dist-ssr/
